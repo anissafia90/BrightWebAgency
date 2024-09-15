@@ -18,7 +18,17 @@ const App = () => {
       <Services />
       {/* Team Section */}
       <div
-        className="flex justify-center items-center gap-10 py-10 bg-gray-50  mx-[55px] min-h-screen"
+        className="
+    flex 
+    flex-col md:flex-row
+    justify-center 
+    items-center 
+    gap-10 
+    py-10 
+    bg-gray-50 
+    mx-[20px] 
+    md:mx-[55px] 
+    min-h-screen"
         id="team"
       >
         <CardTeam
@@ -60,6 +70,7 @@ const App = () => {
           ]}
         />
       </div>
+
       <Contact />
       <Footer />
     </div>
