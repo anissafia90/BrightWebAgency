@@ -36,27 +36,31 @@ const Footer = () => {
         <div className="flex flex-col justify-center">
           <h2 className="text-lg font-bold">About Us</h2>
           <ul className="mt-2">
-            <li className="hover:text-gray-300">Our Team</li>
-            <li className="hover:text-gray-300">Our Story</li>
-            <li className="hover:text-gray-300">Careers</li>
+            <li className="hover:text-gray-300">
+              <a href="#team">Our Team</a>
+            </li>
+            <li className="hover:text-gray-300">
+              <a href="#ourstory">Our Story</a>
+            </li>
+            {/* <li className="hover:text-gray-300">Careers</li> */}
           </ul>
         </div>
 
         <div className="flex flex-col justify-center">
           <h2 className="text-lg font-bold">Contact Us</h2>
           <address className="mt-2">Home Office, Tunisia</address>
-          <p className="mt-1">Phone: 00000000000</p>
-          <p>Email: contact@BrightWeb.com</p>
+          {/* <p className="mt-1">Phone: 00000000000</p> */}
+          <p>Email: info.brightweb@gmail.com</p>
           <div className="mt-2 flex justify-center">
             <a
-              href="#"
+              href="https://x.com/BrightWeb29707"
               className="mr-2 text-4xl hover:text-green-300 cursor-pointer"
             >
               <FaTwitter />
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/company/brightweb-it/?viewAsMember=true"
               className="text-4xl hover:text-green-300 cursor-pointer"
             >
               <FaLinkedin />

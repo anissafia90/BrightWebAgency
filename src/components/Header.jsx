@@ -44,6 +44,16 @@ const Header = () => {
             hover:underline hover:delay-75 
             "
           >
+            <a href="#team">Our Team</a>
+          </li>
+          <li
+            className="p-6 text-[20px]
+            hover:text-blue-950 
+            text-orange-800 
+            transition-all delay-75
+            hover:underline hover:delay-75 
+            "
+          >
             <a href="#contact">Contact Us</a>
           </li>
         </ul>

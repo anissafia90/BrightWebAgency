@@ -15,7 +15,7 @@ const Main = () => {
       </section>
 
       {/* Our Story */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" id="ourstory">
         <div className="container mx-auto px-8 lg:px-16">
           <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">
             Our Story
