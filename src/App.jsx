@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
+        <Services />
         {/* Team Section */}
         <div
           className="
