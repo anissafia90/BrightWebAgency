@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 const Contact = () => {
+  const navigate = useNavigate();
+
   const handleSubmit = async (event) => {
-    event.preventDefault(); // Empêche le rechargement de la page
+    event.preventDefault(); // Prevent page reload
 
     const form = event.target;
     const formData = new FormData(form);
@@ -12,10 +16,10 @@ const Contact = () => {
         body: new URLSearchParams(formData).toString(),
       });
 
-      // Redirection après soumission
-      window.location.href = "/thank-you";
+      // Redirect after submission
+      navigate("/thank-you");
     } catch (error) {
-      alert("Erreur lors de l'envoi : " + error.message);
+      alert("Error submitting form: " + error.message);
     }
   };
 
