@@ -1,9 +1,26 @@
 const Contact = () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault(); // Empêche le rechargement de la page
+
+    const form = event.target;
+    const formData = new FormData(form);
+
+    try {
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      // Redirection après soumission
+      window.location.href = "/thank-you";
+    } catch (error) {
+      alert("Erreur lors de l'envoi : " + error.message);
+    }
+  };
+
   return (
-    <div
-      id="contact"
-      className="bg-white ml-[55px] mr-[55px] mt-10 rounded-lg "
-    >
+    <div id="contact" className="bg-white ml-[55px] mr-[55px] mt-10 rounded-lg">
       <div className="flex flex-col p-10">
         <div className="text-3xl mt-6 font-semibold text-green-900">
           Contact Us
@@ -12,16 +29,9 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}
         >
-          {/* Hidden input for Netlify form */}
-          <input type="hidden" name="form-name" value="contact" />{" "}
-          <p className="hidden">
-            <label>
-              Don’t fill this out if you&apos;re human:{" "}
-              <input name="bot-field" />
-            </label>
-          </p>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="flex flex-col gap-4">
             <label htmlFor="name" className="text-[18px] mt-4 text-green-950">
               Name
@@ -63,15 +73,15 @@ const Contact = () => {
               Feedback (If any)
             </label>
             <textarea
-              name="message"
+              name="text"
               className="mb-4 outline-none border-2 p-2 border-gray-500 rounded-md h-[105px] focus:ring focus:border-green-800"
               id="text"
             ></textarea>
           </div>
           <div>
             <button
-              className="border-green-800 text-xl text-green-800 border-2 p-[8px] pl-[25px] pr-[25px] rounded-md hover:bg-green-800 hover:text-white hover:transition-all delay-75 mb-5 w-full"
               type="submit"
+              className="border-green-800 text text-xl text-green-800 border-2 p-[8px] pl-[25px] pr-[25px] rounded-md hover:bg-green-800 hover:text-white hover:transition-all delay-75 mb-5 w-full"
             >
               Submit
             </button>
