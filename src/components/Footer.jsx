@@ -1,5 +1,4 @@
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Logo from "../assets/B.png";
 
 const Footer = () => {
@@ -64,6 +63,12 @@ const Footer = () => {
               className="text-4xl hover:text-green-300 cursor-pointer"
             >
               <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/BrightWeb1"
+              className="mr-2 text-4xl hover:text-green-300 cursor-pointer"
+            >
+              <FaGithub />
             </a>
           </div>
         </div>
