@@ -58,6 +58,9 @@ const Header = () => {
             <a href="#team">Our Team</a>
           </li>
           <li className="p-2 text-[20px] hover:text-blue-950 text-orange-800 transition-all delay-75 hover:underline">
+            <a href="#project">Our Projects</a>
+          </li>
+          <li className="p-2 text-[20px] hover:text-blue-950 text-orange-800 transition-all delay-75 hover:underline">
             <a href="#contact">Contact Us</a>
           </li>
         </ul>

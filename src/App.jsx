@@ -8,6 +8,7 @@ import CardTeam from "./components/CardTeam";
 import photoAnis from "./assets/anis.png";
 import photoYosra from "./assets/yosra1.jpg";
 import ThankYou from "./components/ThankYou"; // Import your ThankYou component
+import OurProject from "./components/OurProject";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/projects" element={<OurProject />} />
         </Routes>
         <Services />
         {/* Team Section */}
@@ -75,6 +77,7 @@ const App = () => {
             ]}
           />
         </div>
+        <OurProject />
         <Contact />
         <Footer />
       </div>
