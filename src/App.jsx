@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CardTeam from "./components/CardTeam";
 import photoAnis from "./assets/anis.png";
-import photoYosra from "./assets/yosra.jpg";
+import photoYosra from "./assets/yosra1.jpg";
 import ThankYou from "./components/ThankYou"; // Import your ThankYou component
 
 const App = () => {
