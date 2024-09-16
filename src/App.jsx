@@ -9,6 +9,7 @@ import photoAnis from "./assets/anis.png";
 import photoYosra from "./assets/yosra1.jpg";
 import ThankYou from "./components/ThankYou"; // Import your ThankYou component
 import OurProject from "./components/OurProject";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
           <Route path="/projects" element={<OurProject />} />
+          <Route path="/testimonials" element={<Testimonials />} />
         </Routes>
         <Services />
         {/* Team Section */}
@@ -78,6 +80,7 @@ const App = () => {
           />
         </div>
         <OurProject />
+        <Testimonials />
         <Contact />
         <Footer />
       </div>
