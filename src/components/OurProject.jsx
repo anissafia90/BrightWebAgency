@@ -21,7 +21,7 @@ const OurProject = () => {
   ];
 
   return (
-    <div className="p-10 bg-gray-100 text-center" id="project">
+    <div className="p-10 bg-gray-100 text-center  md:mx-[55px]" id="project">
       <h1 className="text-4xl font-bold text-blue-900 mb-6">Our Projects</h1>
       <p className="text-lg text-gray-700 mb-10">
         Here are some of our featured projects. We strive to create
