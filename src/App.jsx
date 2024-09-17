@@ -11,11 +11,32 @@ import ThankYou from "./components/ThankYou"; // Import your ThankYou component
 import OurProject from "./components/OurProject";
 import Testimonials from "./components/Testimonials";
 
+// import { faMoon } from "@fortawesome/free-regular-svg-icons";
+import React from "react";
+import { IoMoon } from "react-icons/io5";
+import { IoSunny } from "react-icons/io5";
+// import { IconContext } from "react-icons";
+
 const App = () => {
+  const [dark, setDark] = React.useState(false);
+
+  const darkModeHandler = () => {
+    setDark(!dark);
+    document.body.classList.toggle("dark");
+  };
+  const style = {
+    display: "block",
+    margin: "auto",
+    color: dark ? "white" : "black", // White for dark theme, black for light theme
+  };
   return (
     <Router>
-      <div className="bg-blue-50 min-h-[100vh] min-w-[100vw]">
+      <div className="bg-blue-50 min-h-[100vh] min-w-[100vw] dark:bg-black">
         <Header />
+        <button style={style} onClick={() => darkModeHandler()}>
+          {dark && <IoSunny />}
+          {!dark && <IoMoon />}
+        </button>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/services" element={<Services />} />
