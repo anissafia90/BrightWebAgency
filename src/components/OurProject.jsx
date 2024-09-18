@@ -1,5 +1,11 @@
 import Kasa from "../assets/kasa.png";
 import Ecomm from "../assets/Ecommerce.png";
+import Weather from "../assets/WeatherApp.png";
+import Business from "../assets/MondeNoirBlanc.png";
+import MenuRestaurant from "../assets/menuRestaurant.png";
+import Event from "../assets/Occasion.png";
+import Techuim from "../assets/Techuim.png";
+import Booki from "../assets/Booki.png";
 
 const OurProject = () => {
   // Sample projects data with URLs for each project
@@ -17,6 +23,48 @@ const OurProject = () => {
         "Kasa is a web app for browsing and booking rental properties, offering a modern user interface and seamless experience.",
       image: Kasa, // Replace with actual image
       url: "https://kasa-immob.netlify.app/", // Replace with actual URL
+    },
+    {
+      title: "Weather App",
+      description:
+        "A user-friendly web app providing real-time weather updates for cities worldwide.",
+      image: Weather, // Replace with actual image
+      url: "https://weather-app-anis.netlify.app/", // Replace with actual URL
+    },
+    {
+      title: "World Black & white",
+      description:
+        "A platform offering insights into data-driven solutions and advanced analytics for businesses.",
+      image: Business, // Replace with actual image
+      url: "https://preeminent-bombolone-478d64.netlify.app", // Replace with actual URL
+    },
+    {
+      title: "Menu Restaurant",
+      description:
+        "An elegant online menu showcasing delicious dishes with a clean, easy-to-navigate layout for restaurant customers.",
+      image: MenuRestaurant, // Replace with actual image
+      url: "https://menurestaurant03.netlify.app/", // Replace with actual URL
+    },
+    {
+      title: "Event Management Platform",
+      description:
+        "A simple and secure sign-in page for accessing a personalized event management platform.",
+      image: Event, // Replace with actual image
+      url: "https://occasion-link.vercel.app/sign-in", // Replace with actual URL
+    },
+    {
+      title: "Techuim Agency ",
+      description:
+        "A sleek and informative page showcasing various modern UI components and design elements for tech projects.",
+      image: Techuim, // Replace with actual image
+      url: "https://techuim02.netlify.app/10-index.html", // Replace with actual URL
+    },
+    {
+      title: "Booki Agency Travel",
+      description:
+        "A travel booking website offering users an easy and intuitive way to find and book accommodations for their trips.",
+      image: Booki, // Replace with actual image
+      url: "https://booki-dev.netlify.app/", // Replace with actual URL
     },
   ];
 
