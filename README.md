@@ -1,67 +1,70 @@
-# 🌟 BrightWeb Agency
+# Getting Started with Create React App
 
-Welcome to **BrightWeb Agency**! We are dedicated to transforming the digital landscape with innovative, cutting-edge web solutions. Founded by two passionate software engineers from ALX Africa, we craft impactful, user-centric websites that elevate your online presence.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 About Us
+## Available Scripts
 
-BrightWeb Agency is a team of creative professionals committed to excellence in web development. We aim to deliver exceptional web experiences to clients across Europe, Canada, and beyond, pushing the boundaries of digital excellence.
+In the project directory, you can run:
 
-## 🌐 Our Services
+### `npm start`
 
-We specialize in delivering tailored digital solutions designed to help businesses thrive online:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Web Development:** Custom websites that align with your brand’s needs and goals.
-- **SEO Optimization:** Boost your website’s visibility and search engine ranking.
-- **Email Marketing:** Drive engagement and conversions with targeted campaigns.
-- **E-Commerce Solutions:** Build and optimize online stores for enhanced sales.
-- **Digital Strategy:** Strategic planning to grow your business in the digital space.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠️ Tech Stack
+### `npm test`
 
-BrightWeb leverages the latest technologies to build scalable, high-performance web applications:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Frontend:** React, Tailwind CSS
-- **Tools & Platforms:** Git, GitHub, Netlify, Vercel
+### `npm run build`
 
-## 📚 Project Structure
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-/BrightWebAgency │ ├── /public │ └── index.html │ ├── /src │ ├── /components │ │ ├── Footer.js │ │ ├── Header.js │ │ └── Services.js │ ├── /assets │ └── App.js │ ├── .gitignore ├── README.md └── package.json
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🚀 Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+### `npm run eject`
 
-### Prerequisites
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Node.js
-- npm (Node Package Manager)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Installation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Clone the repo:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   ```bash
-   git clone https://github.com/anissafia90/BrightWebAgency.git
+## Learn More
 
-   ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-2. Navigate to the project directory:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-cd BrightWebAgency
+### Code Splitting
 
-3. Install the dependencies:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-npm install
+### Analyzing the Bundle Size
 
-4. Start the development server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-npm run dev
+### Making a Progressive Web App
 
-👥 Contributing :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-We welcome contributions! If you would like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+### Advanced Configuration
 
-🤝 Connect with Us :
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-<p>Follow us for updates and more:</p>
-<ul><li><a rel="noopener" target="_new" href="#">Twitter</a></li><li><a rel="noopener" target="_new" href="https://www.linkedin.com/company/brightweb-it/?viewAsMember=true">LinkedIn</a></li></ul>
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
